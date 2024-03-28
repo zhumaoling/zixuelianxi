@@ -134,8 +134,7 @@ const fomartPayState = (payState) => {
           </div>
           <!-- 分页 -->
           <div class="pagination-container">
-            <el-pagination :total="total" @current-change="pageChange" :page-size="params.pageSize" background
-              layout="prev, pager, next" />
+            <el-pagination background layout="prev, pager, next" />
           </div>
         </div>
       </div>

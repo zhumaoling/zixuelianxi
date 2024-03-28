@@ -11,13 +11,3 @@ export const loginAPI = ({ account, password }) => {
     }
   })
 }
-
-
-export const getLikeListAPI = ({ limit = 4 }) => {
-  return httpInstace({
-    url: '/goods/relevant',
-    params: {
-      limit
-    }
-  })
-}
